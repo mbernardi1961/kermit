@@ -18,3 +18,4 @@ It was particularly interesting building under the BSD and Solaris flavours, as 
 
 There are a few systems that SHOULD compile C-Kermit, but haven't been built for decades! These include the following: Coherent 4.2, BeOS 4.5 (Haiku 64), Minix 3.3, OpenStep 4.2, Plan9, I haven't managed to get any of these working yet.
 
+C-Kermit will compile without any aditional libraries in a few OS instances, (ie all the requisite libraries were preinstalled)
