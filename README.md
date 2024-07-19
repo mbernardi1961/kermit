@@ -11,7 +11,7 @@ I also got my BBC Master working again with the [PiTubeDirect](https://github.co
 <li>Kermit 80 [4.11] Z80 CP/M
 <li>C-Kermit [4C(057)] PANOS (this may be upgradeable to the current Beta 10)
 
-So I wanted to get something working and decided to test compile the new (C-Kermit Beta 10)[https://www.kermitproject.org/ck10devbuilds.html].
+So I wanted to get something working and decided to test compile the new [C-Kermit Beta 10](https://www.kermitproject.org/ck10devbuilds.html).
 As Frank da Cruz says on the C-Kermit 10.0 Beta-Test Builds 2021-24 page; I provided a large percentage of the x86_64 Linux, BSD &amp; Solaris builds in VirtualBox and most the of the ARM builds using a Raspberry Pi 4.
 
 It was particularly interesting building under the BSD and Solaris flavours, as I hadn't used either of these systems before.
@@ -32,3 +32,5 @@ For non Debian distros the following library names are used<br>
 <li>pam-devel
 <li>zlib-devel
 <li>glibc-devel or (libc-devel)
+
+So far I've build C-Kermit on over 40 different systems running under VirtualBox and 20 systems on a Raspberry Pi 4.
