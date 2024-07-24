@@ -15,14 +15,14 @@ As Frank da Cruz says on the C-Kermit 10.0 Beta-Test Builds 2021-24 page; I prov
 
 It was particularly interesting building under the BSD and Solaris flavours, as I hadn't used either of these systems before.
 
-There are a few systems that SHOULD compile C-Kermit, but haven't been built for decades! These include the following: Coherent 4.2, BeOS 4.5 (Haiku 64), Minix 3.3, OpenStep 4.2, Plan9, I haven't managed to get any of these working yet.
+There are a few systems that SHOULD compile C-Kermit, but haven't been built for decades! These include the following: Coherent 4.2, BeOS 4.5 (Haiku 64), Minix 3.3, OpenStep 4.2,&amp; Plan9, I haven't managed to get any of these working yet.
 
 C-Kermit will compile without any aditional libraries in a few OS instances, (ie all the requisite libraries were preinstalled). 
 For Debian derivitives the follwing were needed:
 <li>make (if not installed) or cmake
 <li>gcc (if not installed)
 <li>libc-dev (if not installed) or
-<li>glibc-dev (if not installed)
+glibc-dev (if not installed)
 <li>libssl-dev (to add ssl)
 <li>libpam-dev (to add ssl)
 <li>libz-dev (to add ssl if not installed)<br>
