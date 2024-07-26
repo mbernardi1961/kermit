@@ -1,8 +1,8 @@
 # Setting up various versions of Kermit
 I recently (February 2024) rediscoverd the [Kermit Project](https://kermitproject.org), after being a serious user in the 1980's-90's.
 
-Initially I wanted to be able to use kermit on my recently purchased AgonLight2. The CP/M version was included with the version of CP/M made available with the AgonLight2. But is was unable to configure the serial port used.
-The new ZINC (Zinc is not CP/M) wrapper does appear to allow this to be configured. But I haven't managed to get it working yet.
+Initially I wanted to be able to use kermit on my recently purchased AgonLight2. The CP/M version was included with the version of CP/M made available with the AgonLight2. But it was unable to configure the serial port used.
+The new ZINC (Zinc is not CP/M) wrapper <b>does</b> appear to allow this to be configured. But I haven't managed to get it working yet.
 
 I also got my BBC Master working again (after 40 years) with the [PiTubeDirect](https://github.com/mbernardi1961/PiTubeDoc) and wanted to be able to install kermit on the various processors (so far without sucess). The following ought to be available: 
 <li>BBC Kermit [1.46] MOS 
