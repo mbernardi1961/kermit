@@ -5,7 +5,7 @@ Initially I wanted to be able to use kermit on my recently purchased AgonLight2.
 The new ZINC (Zinc is not CP/M) wrapper <b>does</b> appear to allow this to be configured. But I haven't managed to get it working yet.
 
 I also got my BBC Master working again (after 40 years) with the [PiTubeDirect](https://github.com/mbernardi1961/PiTubeDoc) and wanted to be able to install kermit on the various processors (so far without sucess). The following ought to be available: 
-<li>BBC Kermit [1.46] MOS 
+<li>BBC Kermit [1.46] MOS (Native confirmed working)
 <li>MS-DOS Kermit [3.16] DR-DOSPlus
 <li>Kermit 80 [4.11] Z80 CP/M
 <li>C-Kermit [4C(057)] PANOS (this may be upgradeable to the current Beta 10)
@@ -15,10 +15,10 @@ As Frank da Cruz says on the C-Kermit 10.0 Beta-Test Builds 2021-24 page; I prov
 
 It was particularly interesting building under the BSD and Solaris flavours, as I hadn't used either of these systems before.
 
-There are a few systems that SHOULD compile C-Kermit, but haven't been built for decades! These include the following: Coherent 4.2, BeOS 4.5 (Haiku), Minix 3.3, OpenStep 4.2 &amp; Plan9, I haven't managed to get C-Kermit on any of these working yet.
+There are a few systems that SHOULD compile C-Kermit, but haven't been built for decades! These include the following: Coherent 4.2, BeOS 4.5 (Haiku), OpenStep 4.2 &amp; Plan9, I haven't managed to get C-Kermit on any of these working yet.
 
-C-Kermit will compile without any aditional libraries in a few OS instances, (ie all the requisite libraries were preinstalled). 
-However for most Debian derivitives the follwing were needed:
+C-Kermit will compile without any aditional libraries / dependancies in a few OS instances, (ie all the requisite libraries were preinstalled). 
+However for most Debian derivitives the follwing are needed:
 <li>make (if not installed) or cmake
 <li>gcc (if not installed)
 <li>clang (as an alternatve to gcc)
@@ -38,4 +38,4 @@ The following OSes require non standard make commands to compile (once all the d
 <li>Minix 3.4 RC6 - make netbsd
 <li>Open Mandriva - make LIBS=-lcrypt linux
 <li>Gentoo Linux - make LIBS=-ltinfo linux
-</li>
+
