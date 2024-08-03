@@ -21,8 +21,8 @@ C-Kermit will compile without any aditional libraries in a few OS instances, (ie
 However for most Debian derivitives the follwing were needed:
 <li>make (if not installed) or cmake
 <li>gcc (if not installed)
-<li>libc-dev (if not installed) or
-glibc-dev (if not installed)
+<li>clang (as an alternatve to gcc)
+<li>libc-dev or glibc-dev (if not installed)
 <li>libssl-dev (to add ssl)
 <li>libpam-dev (to add ssl)
 <li>libz-dev (to add ssl if not installed)<br>
@@ -33,3 +33,9 @@ For non Debian distros the following library names are used<br>
 <li>libc-devel or glibc-devel
 
 So far I've build C-Kermit on over 40 different systems running under VirtualBox and 20 systems on a Raspberry Pi 4.
+
+The following OSes require non standard make commands to compile (once all the dependancies are installed)
+<li>Minix 3.4 RC6 - make netbsd
+<li>Open Mandriva - make LIBS=-lcrypt linux
+<li>Gentoo Linux - make LIBS=-ltinfo linux
+</li>
