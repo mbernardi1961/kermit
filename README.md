@@ -14,7 +14,7 @@ So I wanted to get something working and decided to test compile the new [C-Kerm
 As Frank da Cruz says on the C-Kermit 10.0 Beta-Test Builds 2021-24 page; I provided a large percentage of the recent x86_64 Linux, BSD &amp; Solaris builds in VirtualBox and most the of the ARM builds using a Raspberry Pi 4.
 C-Kermit 10 Beta 11 was released on 8 August 2024 and has bee built sucessfully for 175 systems; including various BSD, Linux, & Solaris systems. With gcc, clang and ssl.
 
-C-Kermit is available via github at [ckermit](https://github.com/KermitProject/ckermit), and the customised Windows version can be fount at [ckwin](https://github.com/davidrg/ckwin).
+C-Kermit is available via github.com at [ckermit](https://github.com/KermitProject/ckermit), and the customised Windows version can be found at [ckwin](https://github.com/davidrg/ckwin).
 
 It was particularly interesting building under the BSD and Solaris flavours, as I hadn't used either of these systems before.
 
