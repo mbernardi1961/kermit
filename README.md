@@ -8,10 +8,10 @@ I also got my BBC Master working again (after 40 years) with the [PiTubeDirect](
 <li>BBC Kermit [1.46] MOS (Native confirmed working)
 <li>MS-DOS Kermit [3.16] DR-DOSPlus
 <li>Kermit 80 [4.11] Z80 CP/M
-<li>C-Kermit [4C(057)] PANOS (this may be upgradeable to the current Beta 10)
+<li>C-Kermit [4C(057)] PANOS (this may be upgradeable to the current C-Kermit 10 Beta)
 
-So I wanted to get something working and decided to test compile the new [C-Kermit Beta 10](https://www.kermitproject.org/ck10devbuilds.html).
-As Frank da Cruz says on the C-Kermit 10.0 Beta-Test Builds 2021-24 page; I provided a large percentage of the recent x86_64 Linux, BSD &amp; Solaris builds in VirtualBox and most the of the ARM builds using a Raspberry Pi 4.
+So I wanted to get something working and decided to test compile the new [C-Kermit 10  Beta](https://www.kermitproject.org/ck10devbuilds.html).
+As Frank da Cruz says on the C-Kermit 10.0 Beta-Test Builds 2021-25 page; I provided a large percentage of the recent x86_64 Linux, BSD &amp; Solaris builds in VirtualBox and most the of the ARM builds using a Raspberry Pi 4.
 C-Kermit 10 Beta 11 was released on 8 August 2024 and has bee built sucessfully for 175 systems; including various BSD, Linux, & Solaris systems. With gcc, clang and ssl.
 
 C-Kermit is available via github.com at [ckermit](https://github.com/KermitProject/ckermit), and the customised Windows version can be found at [ckwin](https://github.com/davidrg/ckwin).
